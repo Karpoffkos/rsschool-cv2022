@@ -1,0 +1,65 @@
+.body {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    padding: 5em;
+};
+.header1 {
+flex: 0 0 75 vh;
+}
+.header-container {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap-reverse;
+    text-align: start;
+    padding: 5em;
+}
+.header-container > div {
+    flex-grow: 1;
+}
+.aboutMe {
+    text-align: center; 
+}
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 5em;
+}
+.contact-information {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 5em;
+}
+.education {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 5em;
+}
+.language {
+    text-align: start;
+    padding: 5em;
+}
+.e-history {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 5em;
+}
+.add-information {
+    text-align: start;
+    padding: 5em;
+}
+.footer1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 5em;
+}
