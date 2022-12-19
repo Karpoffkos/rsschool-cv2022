@@ -1,49 +1,76 @@
 .body {
+   
+    width: 1280px;
+    margin: 0 auto;
+   
+}
+.bodyDiv {
     display: flex;
     flex-direction: column;
     align-items: stretch;
-    padding: 5em;
+    padding:0 5em;
+    
+   
 };
 .header1 {
 flex: 0 0 75 vh;
+
 }
 .header-container {
     display: flex;
     flex-direction: row-reverse;
     flex-wrap: wrap-reverse;
     text-align: start;
-    padding: 5em;
+    padding: 5PX 250px 5PX 225PX;
+    background: url("assets/img/photo-1540051834522-7248234b9b4d.jpg");
+    background-size: cover;
+  
 }
 .header-container > div {
     flex-grow: 1;
+
 }
 .aboutMe {
-    text-align: center; 
+    text-align:left; 
+    
+    width: 760px;
+    margin: auto;
+}
+.aboutMe_discribe {
+    text-align:justify; 
 }
 .navigation {
+    width: 760px;
+    margin: auto;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content:space-between;
     text-align: center;
-    padding: 5em;
+    padding: 1em;
+    
+    
+}
+div.anctor1 {
+    width: 760px;
+    margin: auto;
 }
 .contact-information {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     text-align: center;
-    padding: 5em;
+    padding: 1em;
 }
 .education {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     text-align: center;
-    padding: 5em;
+    padding: 1em;
 }
 .language {
     text-align: start;
-    padding: 5em;
+    padding: 1em;
 }
 .e-history {
     display: flex;
@@ -56,10 +83,12 @@ flex: 0 0 75 vh;
     text-align: start;
     padding: 5em;
 }
-.footer1 {
+.footer {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     text-align: center;
     padding: 5em;
+    background: url("assets/img/photo-1540051834522-7248234b9b4d.jpg");
+    background-size: cover;
 }
