@@ -77,11 +77,11 @@ div.anctor1 {
     flex-direction: row;
     justify-content: space-evenly;
     text-align: center;
-    padding: 5em;
+    padding: 1em;
 }
 .add-information {
     text-align: start;
-    padding: 5em;
+    padding: 1em;
 }
 .footer {
     display: flex;
